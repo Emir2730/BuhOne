@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta "charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon/ico.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap" rel="stylesheet">
+    <title>BuhOne</title>
+  </head>
+  <body class="container">
+
+
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <div class="header__logo">
+          <img src="img/navigation_element/logo.svg" alt="" class="header__logo__img">
+          <p class="header__logo__text">BuhOne</p>
+        </div>
+        <div class="header__content">
+          <ul class="header__info">
+            <img src="img/navigation_element/1.svg" alt="" class="header__info__img">
+            <li class="info__text">8 (111) 222-33-44</li>
+            <img src="img/navigation_element/2.svg" alt="" class="header__info__img">
+            <li class="info__text">Пн-Пт 10:00-18:00</li>
+            <img src="img/navigation_element/3.svg" alt="" class="header__info__img">
+            <li class="info__text">order@buhone.ru</li>
+            <img src="img/navigation_element/4.svg" alt="" class="header__info__img">
+            <li class="info__text">Невский пр. 130</li>
+          </ul>
+          <ul class="header__navigation">
+            <li class="navigation__text"><a href="">главная</a></li>
+            <li class="navigation__text"><a href="">услуги</a></li>
+            <li class="navigation__text"><a href="">кейсы</a></li>
+            <li class="navigation__text"><a href="">о компании</a></li>
+            <li class="navigation__text"><a href="">контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+
+    <div class="first__screen">
+      <div class="wrapper">
+        <div class="first__screen__content item">
+          <h1 class="title first__screen__content__title">Бухгалтерские услуги<br>в Санкт-Петербурге</h1>
+          <button class="button__presentation">Наша презентация</button>
+        </div>
+       <div class="item">
+          <img src="img/slide1.jpg" alt="Первый слайд" class="slider__img">
+        </div>
+        <div class="item">
+            <img src="img/slide2.jpg" alt="Второй слайд" class="slider__img">
+        </div>
+        <div class="item">
+            <img src="img/slide3.jpg" alt="Третий слайд" class="slider__img">
+        </div>
+        <div class="button__slider">
+          <div class="slider-dots">
+              <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+              <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+              <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+              <span class="slider-dots_item" onclick="currentSlide(4)"></span> 
+          </div>
+          <a class="button__slider__prev" onclick="minusSlide()"></a>
+          <a class="button__slider__next" onclick="plusSlide()"></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="our__services">
+      <div class="wrapper special__wrapper">
+        <div class="our__services__content">
+          <span class="mini__title">Наши услуги</span>
+          <h1 class="title our__services__content__title">Мы специализируемся</h1>
+        </div>
+        <div class="our__services__list">
+          <div class="our__services__block__1">
+            <div class="our__services__item our__services__item__modifier">
+              <p class="our__services__item__text">Бухгалтерское<br>обслуживание</p>
+            </div>
+            <div class="our__services__item">
+              <p class="our__services__item__text">Бухгалтерское<br>обслуживание</p>
+            </div>
+            <div class="our__services__item">
+              <p class="our__services__item__text">Бухгалтерское<br>обслуживание</p>
+            </div>
+          </div>
+          <div class="our__services__block__1">
+            <div class="our__services__item">
+              <p class="our__services__item__text">Бухгалтерское<br>обслуживание</p>
+            </div>
+            <div class="our__services__item">
+              <p class="our__services__item__text">Бухгалтерское<br>обслуживание</p>
+            </div>
+            <div class="our__services__item">
+              <p class="our__services__item__text">Бухгалтерское<br>обслуживание</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="about__us">
+      <div class="wrapper special__wrapper about__us__wrapper">
+        <div class="about__us__content">
+          <span class="mini__title">О нас</span>
+          <h1 class="title about__us__content__title">Компания<br><span class="about__us__content__span">ИвановПром</span></h1>
+          <p class="about__us__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
+        </div>
+        <div class="about__us__list">
+          <div class="about__us__block__1">
+            <div class="about__us__item">
+              <p class="about__us__item_nomber">90</p>
+              <p class="about__us__item__text">Бухгалтерское<br>обслуживание</p>
+              <a href="" class="about__us__item__link">Все кейсы</a>
+            </div>
+            <div class="about__us__item">
+              <p class="about__us__item_nomber">90</p>
+              <p class="about__us__item__text">Бухгалтерское<br>обслуживание</p>
+              <a href="" class="about__us__item__link">Все кейсы</a>
+            </div>
+          </div>
+          <div class="about__us__block__1">
+            <div class="about__us__item">
+              <p class="about__us__item_nomber">90</p>
+              <p class="about__us__item__text">Бухгалтерское<br>обслуживание</p>
+              <a href="" class="about__us__item__link">Все кейсы</a>
+            </div>
+            <div class="about__us__item about__us__item__modifier">
+              <p class="about__us__item_nomber about__us__item_nomber__modifier">90</p>
+              <p class="about__us__item__text about__us__item__text__modifier">Бухгалтерское<br>обслуживание</p>
+              <a href="" class="about__us__item__link about__us__item__link__modifier">Все кейсы</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="our__clients">
+      <div class="wrapper special__wrapper">
+        <div class="our__clients__content">
+          <span class="mini__title">Наши клиенты</span>
+          <h1 class="title our__clients__content__title">С нами работают</h1>
+        </div>
+        <div class="our__clients__list">
+          <img src="img/our_clients/oc_img.jpg" alt="" class="our__clients__img">
+          <img src="img/our_clients/oc_img.jpg" alt="" class="our__clients__img">
+          <img src="img/our_clients/oc_img.jpg" alt="" class="our__clients__img">
+          <img src="img/our_clients/oc_img.jpg" alt="" class="our__clients__img">
+        </div>
+
+        <div class="button__slider">
+          <div class="slider-dots">
+              <span class="slider-dots_item special__slider__dots__item" onclick="currentSlide(1)"></span> 
+              <span class="slider-dots_item special__slider__dots__item" onclick="currentSlide(2)"></span> 
+              <span class="slider-dots_item special__slider__dots__item" onclick="currentSlide(3)"></span> 
+              <span class="slider-dots_item special__slider__dots__item" onclick="currentSlide(4)"></span> 
+          </div>
+          <a class="button__slider__prev special__button__slider"></a>
+          <a class="button__slider__next special__button__slider"></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="reviews">
+      <div class="wrapper special__wrapper">
+        <div class="reviews__content">
+          <span class="mini__title">Отзывы</span>
+          <h1 class="title reviews__content__title">Ваши благодарности</h1>
+        </div>
+        <div class="reviews__list">
+          <p class="reviews__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+          <div class="reviews__avatar">
+            <img src="img/reviews/avatar.svg" alt="" class="avatar">
+            <p class="avatar__name">Екатерина Иванова<br><span class="avatar__name__span">Директор ООО “Раз-два”</span></p>
+          </div>
+        </div>
+
+        <div class="button__slider">
+          <div class="slider-dots">
+              <span class="slider-dots_item special__slider__dots__item" onclick="currentSlide(1)"></span> 
+              <span class="slider-dots_item special__slider__dots__item" onclick="currentSlide(2)"></span> 
+              <span class="slider-dots_item special__slider__dots__item" onclick="currentSlide(3)"></span> 
+              <span class="slider-dots_item special__slider__dots__item" onclick="currentSlide(4)"></span> 
+          </div>
+          <a class="button__slider__prev special__button__slider"></a>
+          <a class="button__slider__next special__button__slider"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="wrapper contact__wrapper">
+        <div class="contact__content">
+          <h1 class="title contact__content__title">Связь с нами</h1>
+          <p class="contact__text">У вас остались вопросы? Напишите нам - мы ответим <br>в ближайшее время!</p>
+          <div class="contacts">
+            <p class="contact__tel">+7 (111) 222-33-44</p>
+            <p class="contact__email">order@bu-one.ru</p>
+          </div>
+        </div>
+        <div class="contact__form">
+          <div class="form__name">
+            <div>
+              <p class="text__form">Имя</p>
+              <input type="text" placeholder="Иван" class="input__decoration name">
+            </div>
+            <div class="form__name__wrapper">
+              <p class="text__form">Фамилия</p>
+              <input type="text" placeholder="Иванов" class="input__decoration surname">
+            </div>
+          </div>
+          <p class="text__form">Сообщение</p>
+          <textarea name="text" placeholder="Ваше сообщение" class="input__decoration message"></textarea>
+          <button type="submit" name="button" class="button__submit">Отправить сообщение</button>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <div class="wrapper footer__wrapper">
+        <p class="footer__text">2019 (с) Все права защищены. БухОне.ру</p>
+        <p class="footer__text__2">Разработано: BuhOne</p>
+      </div>
+    </footer>
+
+
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+  </body>
+</html>
